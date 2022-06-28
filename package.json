@@ -1,13 +1,13 @@
 {
-  "name": "threejs-games2-2022",
+  "name": "webpack-boilerplate",
+  "description": "Webpack Boilerplate",
+  "author": "Johnny",
   "version": "1.0.0",
-  "description": "",
+  "license": "ISC",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {},
   "devDependencies": {
     "css-loader": "^6.7.1",
