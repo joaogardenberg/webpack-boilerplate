@@ -1,5 +1,3 @@
-const path = require('path')
-
 module.exports = {
   mode: 'development',
   entry: './src/index.ts',
@@ -10,6 +8,7 @@ module.exports = {
   },
   module: {
     rules: [
+      { test: /\.ts/, use: 'ts-loader' },
       {
         test: /\.css|scss|sass$/,
         use: [
