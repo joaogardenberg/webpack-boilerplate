@@ -13,7 +13,6 @@
     "@typescript-eslint/no-namespace": "off",
     "@typescript-eslint/no-unused-vars": "warn",
     "@typescript-eslint/no-var-requires": "off",
-    // "import/no-anonymous-default-export": "off",
     "no-empty": ["error", { "allowEmptyCatch": true }]
   },
   "env": { "browser": true, "node": true, "jest": true }
